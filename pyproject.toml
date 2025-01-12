@@ -1,0 +1,71 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wagtail-django-recaptcha"
+version = "2.1.1"
+description = "A simple recaptcha field for Wagtail Form Pages."
+readme = "README.rst"
+license = { text = "MIT" }
+authors = [
+    { name = "Wagtail Nest team", email = "hello@wagtail.org" }
+]
+classifiers = [
+    "Environment :: Web Environment",
+    "Framework :: Django",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Framework :: Django",
+    "Framework :: Django :: 4.2",
+    "Framework :: Django :: 5.0",
+    "Framework :: Django :: 5.1",
+    "Framework :: Wagtail",
+    "Framework :: Wagtail :: 5",
+    "Framework :: Wagtail :: 6",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Internet :: WWW/HTTP :: Dynamic Content"
+]
+dependencies = [
+    "wagtail>=5.0",
+    "django-recaptcha>=4"
+]
+
+[project.optional-dependencies]
+testing = [
+    "tox>=4.18.1,<4.19",
+    "coverage>=6.5.0,<6.6",
+    "flake8>=7.0.0,<7.1",
+    "isort>=5.10.1",
+    "wagtail>=4.1"
+]
+docs = []
+
+[tool.flake8]
+exclude = [
+    ".git",
+    ".githooks",
+    "__pycache__",
+    "docs",
+    "migrations"
+]
+max-line-length = 119
+
+[tool.isort]
+line_length = 119
+multi_line_output = 3
+include_trailing_comma = true
+add_imports = [
+    "from __future__ import absolute_import",
+    "from __future__ import unicode_literals"
+]
+skip = [
+    "migrations"
+]
