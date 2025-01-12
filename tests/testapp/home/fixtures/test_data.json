@@ -1,191 +1,175 @@
 [
-{
-    "model": "home.testcaptchaemailformfield",
-    "pk": 1,
-    "fields": {
-        "sort_order": 0,
-        "clean_name": "name",
-        "label": "Name",
-        "field_type": "singleline",
-        "required": true,
-        "choices": "",
-        "default_value": "",
-        "help_text": "",
-        "page": 4
+    {
+        "model": "home.testcaptchaemailformfield",
+        "pk": 1,
+        "fields": {
+            "sort_order": 0,
+            "clean_name": "name",
+            "label": "Name",
+            "field_type": "singleline",
+            "required": true,
+            "choices": "",
+            "default_value": "",
+            "help_text": "",
+            "page": 4
+        }
+    },
+    {
+        "model": "home.testcaptchaformfield",
+        "pk": 1,
+        "fields": {
+            "sort_order": 0,
+            "clean_name": "name",
+            "label": "Name",
+            "field_type": "singleline",
+            "required": true,
+            "choices": "",
+            "default_value": "",
+            "help_text": "",
+            "page": 3
+        }
+    },
+    {
+        "model": "auth.user",
+        "fields": {
+            "password": "pbkdf2_sha256$36000$pel9rvh66phL$jwiLDWGjnabC9DV3sv0gEZTYPychV9RJ1kNReKjQxJM=",
+            "last_login": "2018-02-08T01:21:44.006Z",
+            "is_superuser": true,
+            "username": "admin",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2018-02-08T01:21:39.242Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "home.testcaptchaformpage",
+        "pk": 3,
+        "fields": {}
+    },
+    {
+        "model": "home.testcaptchaemailformpage",
+        "pk": 4,
+        "fields": {
+            "to_address": "test@test.com",
+            "from_address": "test@test.com",
+            "subject": "You've got an email!"
+        }
+    },
+    {
+        "model": "wagtailcore.page",
+        "pk": 1,
+        "fields": {
+            "path": "0001",
+            "depth": 1,
+            "numchild": 1,
+            "title": "Root",
+            "draft_title": "Root",
+            "slug": "root",
+            "content_type": ["wagtailcore", "page"],
+            "live": true,
+            "has_unpublished_changes": false,
+            "url_path": "/",
+            "owner": null,
+            "seo_title": "",
+            "show_in_menus": false,
+            "search_description": "",
+            "go_live_at": null,
+            "expire_at": null,
+            "expired": false,
+            "locked": false,
+            "first_published_at": null,
+            "last_published_at": null,
+            "latest_revision_created_at": null,
+            "live_revision": null
+        }
+    },
+    {
+        "model": "wagtailcore.page",
+        "pk": 2,
+        "fields": {
+            "path": "00010001",
+            "depth": 2,
+            "numchild": 2,
+            "title": "Welcome to your new Wagtail site!",
+            "draft_title": "Welcome to your new Wagtail site!",
+            "slug": "home",
+            "content_type": ["wagtailcore", "page"],
+            "live": true,
+            "has_unpublished_changes": false,
+            "url_path": "/home/",
+            "owner": null,
+            "seo_title": "",
+            "show_in_menus": false,
+            "search_description": "",
+            "go_live_at": null,
+            "expire_at": null,
+            "expired": false,
+            "locked": false,
+            "first_published_at": null,
+            "last_published_at": null,
+            "latest_revision_created_at": null,
+            "live_revision": null
+        }
+    },
+    {
+        "model": "wagtailcore.page",
+        "pk": 3,
+        "fields": {
+            "path": "000100010001",
+            "depth": 3,
+            "numchild": 0,
+            "title": "Form",
+            "draft_title": "Form",
+            "slug": "form",
+            "content_type": ["home", "testcaptchaformpage"],
+            "live": true,
+            "has_unpublished_changes": false,
+            "url_path": "/home/form/",
+            "owner": ["admin"],
+            "seo_title": "",
+            "show_in_menus": false,
+            "search_description": "",
+            "go_live_at": null,
+            "expire_at": null,
+            "expired": false,
+            "locked": false,
+            "first_published_at": "2018-02-08T01:22:27.436Z",
+            "last_published_at": "2018-02-08T01:22:44.239Z",
+            "latest_revision_created_at": "2018-02-08T01:22:44.211Z",
+            "live_revision": null
+        }
+    },
+    {
+        "model": "wagtailcore.page",
+        "pk": 4,
+        "fields": {
+            "path": "000100010002",
+            "depth": 3,
+            "numchild": 0,
+            "title": "Email Form",
+            "draft_title": "Email Form",
+            "slug": "email-form",
+            "content_type": ["home", "testcaptchaemailformpage"],
+            "live": true,
+            "has_unpublished_changes": false,
+            "url_path": "/home/email-form/",
+            "owner": ["admin"],
+            "seo_title": "",
+            "show_in_menus": false,
+            "search_description": "",
+            "go_live_at": null,
+            "expire_at": null,
+            "expired": false,
+            "locked": false,
+            "first_published_at": "2018-02-08T01:23:28.032Z",
+            "last_published_at": "2018-02-08T01:23:28.032Z",
+            "latest_revision_created_at": "2018-02-08T01:23:28.010Z",
+            "live_revision": null
+        }
     }
-},
-{
-    "model": "home.testcaptchaformfield",
-    "pk": 1,
-    "fields": {
-        "sort_order": 0,
-        "clean_name": "name",
-        "label": "Name",
-        "field_type": "singleline",
-        "required": true,
-        "choices": "",
-        "default_value": "",
-        "help_text": "",
-        "page": 3
-    }
-},
-{
-    "model": "auth.user",
-    "fields": {
-        "password": "pbkdf2_sha256$36000$pel9rvh66phL$jwiLDWGjnabC9DV3sv0gEZTYPychV9RJ1kNReKjQxJM=",
-        "last_login": "2018-02-08T01:21:44.006Z",
-        "is_superuser": true,
-        "username": "admin",
-        "first_name": "",
-        "last_name": "",
-        "email": "",
-        "is_staff": true,
-        "is_active": true,
-        "date_joined": "2018-02-08T01:21:39.242Z",
-        "groups": [],
-        "user_permissions": []
-    }
-},
-{
-    "model": "home.testcaptchaformpage",
-    "pk": 3,
-    "fields": {}
-},
-{
-    "model": "home.testcaptchaemailformpage",
-    "pk": 4,
-    "fields": {
-        "to_address": "test@test.com",
-        "from_address": "test@test.com",
-        "subject": "You've got an email!"
-    }
-},
-{
-    "model": "wagtailcore.page",
-    "pk": 1,
-    "fields": {
-        "path": "0001",
-        "depth": 1,
-        "numchild": 1,
-        "title": "Root",
-        "draft_title": "Root",
-        "slug": "root",
-        "content_type": [
-            "wagtailcore",
-            "page"
-        ],
-        "live": true,
-        "has_unpublished_changes": false,
-        "url_path": "/",
-        "owner": null,
-        "seo_title": "",
-        "show_in_menus": false,
-        "search_description": "",
-        "go_live_at": null,
-        "expire_at": null,
-        "expired": false,
-        "locked": false,
-        "first_published_at": null,
-        "last_published_at": null,
-        "latest_revision_created_at": null,
-        "live_revision": null
-    }
-},
-{
-    "model": "wagtailcore.page",
-    "pk": 2,
-    "fields": {
-        "path": "00010001",
-        "depth": 2,
-        "numchild": 2,
-        "title": "Welcome to your new Wagtail site!",
-        "draft_title": "Welcome to your new Wagtail site!",
-        "slug": "home",
-        "content_type": [
-            "wagtailcore",
-            "page"
-        ],
-        "live": true,
-        "has_unpublished_changes": false,
-        "url_path": "/home/",
-        "owner": null,
-        "seo_title": "",
-        "show_in_menus": false,
-        "search_description": "",
-        "go_live_at": null,
-        "expire_at": null,
-        "expired": false,
-        "locked": false,
-        "first_published_at": null,
-        "last_published_at": null,
-        "latest_revision_created_at": null,
-        "live_revision": null
-    }
-},
-{
-    "model": "wagtailcore.page",
-    "pk": 3,
-    "fields": {
-        "path": "000100010001",
-        "depth": 3,
-        "numchild": 0,
-        "title": "Form",
-        "draft_title": "Form",
-        "slug": "form",
-        "content_type": [
-            "home",
-            "testcaptchaformpage"
-        ],
-        "live": true,
-        "has_unpublished_changes": false,
-        "url_path": "/home/form/",
-        "owner": [
-            "admin"
-        ],
-        "seo_title": "",
-        "show_in_menus": false,
-        "search_description": "",
-        "go_live_at": null,
-        "expire_at": null,
-        "expired": false,
-        "locked": false,
-        "first_published_at": "2018-02-08T01:22:27.436Z",
-        "last_published_at": "2018-02-08T01:22:44.239Z",
-        "latest_revision_created_at": "2018-02-08T01:22:44.211Z",
-        "live_revision": null
-    }
-},
-{
-    "model": "wagtailcore.page",
-    "pk": 4,
-    "fields": {
-        "path": "000100010002",
-        "depth": 3,
-        "numchild": 0,
-        "title": "Email Form",
-        "draft_title": "Email Form",
-        "slug": "email-form",
-        "content_type": [
-            "home",
-            "testcaptchaemailformpage"
-        ],
-        "live": true,
-        "has_unpublished_changes": false,
-        "url_path": "/home/email-form/",
-        "owner": [
-            "admin"
-        ],
-        "seo_title": "",
-        "show_in_menus": false,
-        "search_description": "",
-        "go_live_at": null,
-        "expire_at": null,
-        "expired": false,
-        "locked": false,
-        "first_published_at": "2018-02-08T01:23:28.032Z",
-        "last_published_at": "2018-02-08T01:23:28.032Z",
-        "latest_revision_created_at": "2018-02-08T01:23:28.010Z",
-        "live_revision": null
-    }
-}
 ]

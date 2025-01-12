@@ -1,7 +1,7 @@
-from __future__ import absolute_import, unicode_literals
-
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
+import contextlib
 import os
+
 
 PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE_DIR = os.path.dirname(PROJECT_DIR)
@@ -123,7 +123,7 @@ BASE_URL = WAGTAILADMIN_BASE_URL = "http://example.com"
 DEBUG = True
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "4*5e^@2%(h#$*b4=ze_kcdw46-$0z#rrf3661c5(&+x^oj=4)+"
+SECRET_KEY = "DUMMY_SECRET_KEY"  # noqa: S105
 
 EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
 
@@ -131,7 +131,5 @@ EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
 SILENCED_SYSTEM_CHECKS = ["django_recaptcha.recaptcha_test_key_error"]
 DEFAULT_AUTO_FIELD = "django.db.models.AutoField"
 
-try:
-    from .local import *  # noqa: F401, F403
-except ImportError:
-    pass
+with contextlib.suppress(ImportError):
+    from .local import *  # noqa: F403

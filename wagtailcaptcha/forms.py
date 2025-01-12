@@ -1,7 +1,6 @@
-from __future__ import absolute_import, unicode_literals
+from wagtail.contrib.forms.forms import FormBuilder
 
 from django_recaptcha.fields import ReCaptchaField
-from wagtail.contrib.forms.forms import FormBuilder
 
 
 class WagtailCaptchaFormBuilder(FormBuilder):
@@ -10,7 +9,7 @@ class WagtailCaptchaFormBuilder(FormBuilder):
     @property
     def formfields(self):
         # Add wagtailcaptcha to formfields property
-        fields = super(WagtailCaptchaFormBuilder, self).formfields
+        fields = super().formfields
         fields[self.CAPTCHA_FIELD_NAME] = ReCaptchaField(label="")
 
         return fields

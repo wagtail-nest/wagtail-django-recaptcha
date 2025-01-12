@@ -1,8 +1,7 @@
-from __future__ import absolute_import, unicode_literals
-
 from unittest import mock
 
 from django.test import TestCase
+
 from home.forms import CustomCaptchaFormBuilder
 from home.models import (
     TestCaptchaEmailFormPage,

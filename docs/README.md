@@ -15,5 +15,6 @@ Django/Wagtail combinations as [supported](http://docs.wagtail.io/en/latest/rele
 In order to keep for CI build time from growing out of control, not all Python/Django/Wagtail combinations will be tested.
 
 Test as follows:
+
 - All supported Django/Wagtail combinations with the latest supported Python version of the `4.x` and `5.x` series.
 - The latest supported Django/Wagtail combination for the remaining Python versions.
