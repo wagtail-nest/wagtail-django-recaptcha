@@ -1,3 +1,5 @@
+.. image:: https://github.com/wagtail-nest/wagtail-django-recaptcha/actions/workflows/test.yml/badge.svg
+   :target: https://github.com/wagtail-nest/wagtail-django-recaptcha/actions/workflows/test.yml
 .. image:: https://img.shields.io/pypi/v/wagtail-django-recaptcha.svg
    :target: https://pypi.python.org/pypi/wagtail-django-recaptcha
 .. image:: https://codeclimate.com/github/wagtail-nest/wagtail-django-recaptcha/badges/gpa.svg
