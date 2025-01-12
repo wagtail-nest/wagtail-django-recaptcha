@@ -36,8 +36,8 @@ setup(
     description="A simple recaptcha field for Wagtail Form Pages.",
     long_description=README,
     url="http://github.com/springload/wagtail-django-recaptcha",
-    author="Springload",
-    author_email="hello@springload.co.nz",
+    author="Wagtail Nest team",
+    author_email="hello@wagtail.org",
     classifiers=[
         "Environment :: Web Environment",
         "Framework :: Django",
