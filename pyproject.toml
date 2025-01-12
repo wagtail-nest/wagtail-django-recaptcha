@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "wagtail-django-recaptcha"
 version = "2.1.1"
 description = "A simple recaptcha field for Wagtail Form Pages."
-readme = "README.rst"
+readme = "README.md"
 license = { text = "MIT" }
 authors = [
     { name = "Wagtail Nest team", email = "hello@wagtail.org" }
