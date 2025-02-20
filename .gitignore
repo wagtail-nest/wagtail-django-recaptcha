@@ -11,6 +11,6 @@ dist/
 tests/testapp/var/media/
 .coverage
 coverage
-coverage_html_report/
+htmlcov/
 venv/
 .tox/
