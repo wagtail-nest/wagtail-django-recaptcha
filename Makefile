@@ -13,8 +13,7 @@ start: ## Starts the development server.
 	python ./tests/testapp/manage.py runserver
 
 lint: ## Lint the project.
-	flake8 wagtailcaptcha tests setup.py
-	isort --check-only --diff wagtailcaptcha tests setup.py
+	pre-commit run --all-files
 
 test: ## Test the project.
 	python ./runtests.py

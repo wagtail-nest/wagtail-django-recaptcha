@@ -40,11 +40,9 @@ dependencies = [
 
 [project.optional-dependencies]
 testing = [
-    "tox>=4.18.1,<4.19",
-    "coverage>=6.5.0,<6.6",
-    "flake8>=7.0.0,<7.1",
-    "isort>=5.10.1",
-    "wagtail>=4.1"
+    "tox>=4.18.1",
+    "coverage>=6.5.0",
+    "pre-commit>=4.0.0",
 ]
 docs = []
 
