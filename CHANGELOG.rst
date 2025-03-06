@@ -1,6 +1,12 @@
 Changelog
 =========
 
+Unreleased
+------------------
+
+#. Added tests for Wagtail 6.4
+#. Removed tests for Wagtail 5.0, 5.1, 6.0, 6.1 and 6.2 to align with documented compatibility (LTS, current current + 1)
+
 2.1.1 (2024-01-26)
 ------------------
 #. Added tests for Wagtail 5.2
