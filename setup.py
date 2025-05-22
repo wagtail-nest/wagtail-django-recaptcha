@@ -21,7 +21,7 @@ testing_extras = [
     "flake8>=7.0.0,<7.1",
     "isort>=5.10.1",
     # For test site
-    "wagtail>=4.1",
+    "wagtail>=5.2",
 ]
 
 # Documentation dependencies
@@ -46,23 +46,23 @@ setup(
         "Operating System :: OS Independent",
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
         "Programming Language :: Python :: 3.12",
+        "Programming Language :: Python :: 3.13",
         "Framework :: Django",
-        "Framework :: Django :: 3.2",
-        "Framework :: Django :: 4.1",
         "Framework :: Django :: 4.2",
+        "Framework :: Django :: 5.1",
+        "Framework :: Django :: 5.2",
         "Framework :: Wagtail",
-        "Framework :: Wagtail :: 3",
-        "Framework :: Wagtail :: 4",
         "Framework :: Wagtail :: 5",
+        "Framework :: Wagtail :: 6",
+        "Framework :: Wagtail :: 7",
         "Topic :: Internet :: WWW/HTTP",
         "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
     ],
-    install_requires=["django-recaptcha>=4"],
+    install_requires=["django-recaptcha>=4", "wagtail>=5.2"],
     extras_require={
         "testing": testing_extras,
         "docs": documentation_extras,
