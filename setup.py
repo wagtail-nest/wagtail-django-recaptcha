@@ -21,7 +21,7 @@ testing_extras = [
     "flake8>=7.0.0,<7.1",
     "isort>=5.10.1",
     # For test site
-    "wagtail>=5.2",
+    "wagtail>=6.3",
 ]
 
 # Documentation dependencies
@@ -56,13 +56,12 @@ setup(
         "Framework :: Django :: 5.1",
         "Framework :: Django :: 5.2",
         "Framework :: Wagtail",
-        "Framework :: Wagtail :: 5",
         "Framework :: Wagtail :: 6",
         "Framework :: Wagtail :: 7",
         "Topic :: Internet :: WWW/HTTP",
         "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
     ],
-    install_requires=["django-recaptcha>=4", "wagtail>=5.2"],
+    install_requires=["django-recaptcha>=4", "wagtail>=6.3"],
     extras_require={
         "testing": testing_extras,
         "docs": documentation_extras,
