@@ -15,13 +15,13 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 # Testing dependencies
 testing_extras = [
     # Required for running the tests
-    "tox>=4.18.1,<4.19",
+    "tox>=4.32.0,<5",
     # For coverage and PEP8 linting
-    "coverage>=6.5.0,<6.6",
-    "flake8>=7.0.0,<7.1",
-    "isort>=5.10.1",
+    "coverage>=7.11.3,<7.12",
+    "flake8>=7.3.0,<7.4",
+    "isort>=7.0.0,<8",
     # For test site
-    "wagtail>=6.3",
+    "wagtail>=7.0",
 ]
 
 # Documentation dependencies
@@ -46,11 +46,11 @@ setup(
         "Operating System :: OS Independent",
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
         "Programming Language :: Python :: 3.12",
         "Programming Language :: Python :: 3.13",
+        "Programming Language :: Python :: 3.14",
         "Framework :: Django",
         "Framework :: Django :: 4.2",
         "Framework :: Django :: 5.1",
@@ -61,7 +61,7 @@ setup(
         "Topic :: Internet :: WWW/HTTP",
         "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
     ],
-    install_requires=["django-recaptcha>=4", "wagtail>=6.3"],
+    install_requires=["django-recaptcha>=4", "wagtail>=7.0"],
     extras_require={
         "testing": testing_extras,
         "docs": documentation_extras,
