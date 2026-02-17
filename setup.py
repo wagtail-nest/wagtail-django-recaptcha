@@ -17,7 +17,7 @@ testing_extras = [
     # Required for running the tests
     "tox>=4.32.0,<5",
     # For coverage and PEP8 linting
-    "coverage>=7.12.1,<7.13",
+    "coverage>=7.13.1,<7.14",
     "flake8>=7.3.0,<7.4",
     "isort>=7.0.0,<8",
     # For test site
