@@ -1,5 +1,12 @@
 [
 {
+    "model": "wagtailcore.locale",
+    "pk": 1,
+    "fields": {
+        "language_code": "en"
+    }
+},
+{
     "model": "home.testcaptchaemailformfield",
     "pk": 1,
     "fields": {
@@ -88,7 +95,8 @@
         "first_published_at": null,
         "last_published_at": null,
         "latest_revision_created_at": null,
-        "live_revision": null
+        "live_revision": null,
+        "locale": 1
     }
 },
 {
@@ -119,7 +127,8 @@
         "first_published_at": null,
         "last_published_at": null,
         "latest_revision_created_at": null,
-        "live_revision": null
+        "live_revision": null,
+        "locale": 1
     }
 },
 {
@@ -152,7 +161,8 @@
         "first_published_at": "2018-02-08T01:22:27.436Z",
         "last_published_at": "2018-02-08T01:22:44.239Z",
         "latest_revision_created_at": "2018-02-08T01:22:44.211Z",
-        "live_revision": null
+        "live_revision": null,
+        "locale": 1
     }
 },
 {
@@ -185,7 +195,8 @@
         "first_published_at": "2018-02-08T01:23:28.032Z",
         "last_published_at": "2018-02-08T01:23:28.032Z",
         "latest_revision_created_at": "2018-02-08T01:23:28.010Z",
-        "live_revision": null
+        "live_revision": null,
+        "locale": 1
     }
 }
 ]
