@@ -17,7 +17,7 @@ testing_extras = [
     # Required for running the tests
     "tox>=4.32.0,<5",
     # For coverage and PEP8 linting
-    "coverage>=7.11.3,<7.12",
+    "coverage>=7.12.1,<7.13",
     "flake8>=7.3.0,<7.4",
     "isort>=7.0.0,<8",
     # For test site
@@ -53,8 +53,8 @@ setup(
         "Programming Language :: Python :: 3.14",
         "Framework :: Django",
         "Framework :: Django :: 4.2",
-        "Framework :: Django :: 5.1",
         "Framework :: Django :: 5.2",
+        "Framework :: Django :: 6.0",
         "Framework :: Wagtail",
         "Framework :: Wagtail :: 6",
         "Framework :: Wagtail :: 7",
