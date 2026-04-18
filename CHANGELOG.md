@@ -9,6 +9,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 _The project is now maintained by the Wagtail Nest community._
 
+- Switch from `setup.py` to `pyproject.toml`
+- Add support for Wagtail 7.0 and 7.3
+- Add support for Django 6.0
+- Add support for Python 3.14
+- Remove support for Wagtail <= 6.3
+- Remove support for Python <= 3.9
+
 ## 2.1.1 (2024-01-26)
 
 - Added tests for Wagtail 5.2
