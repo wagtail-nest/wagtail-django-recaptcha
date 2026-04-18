@@ -11,6 +11,12 @@
 
 Check out [Awesome Wagtail](https://github.com/springload/awesome-wagtail) for more awesome packages and resources from the Wagtail community.
 
+## Compatibility
+
+- Django 5.2, 6.0
+- Wagtail 7.0 LTS, 7.3
+- Python 3.10, 3.11, 3.12, 3.13, 3.14
+
 ## Installation
 
 1.  Install wagtailcaptcha via pip `pip install wagtail-django-recaptcha` or add `wagtailcaptcha` to your Python path.
