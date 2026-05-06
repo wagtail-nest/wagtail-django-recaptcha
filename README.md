@@ -14,7 +14,7 @@ Check out [Awesome Wagtail](https://github.com/springload/awesome-wagtail) for m
 ## Compatibility
 
 - Django 5.2, 6.0
-- Wagtail 7.0 LTS, 7.3
+- Wagtail 7.0 LTS, 7.3, 7.4 LTS
 - Python 3.10, 3.11, 3.12, 3.13, 3.14
 
 ## Installation
